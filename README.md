@@ -3,12 +3,10 @@ cat > README.md << 'EOF'
 
 A Python-based web vulnerability scanner that detects common web security issues including SQL Injection, Cross-Site Scripting (XSS), and missing HTTP security headers.
 
----
 
-## ⚠️ Legal Notice
+## Legal Notice
 Only scan targets you **own** or have **explicit written permission** to test. Unauthorized scanning is illegal in most jurisdictions.
 
----
 
 ## Features
 - SQL Injection detection via error-based payloads
@@ -17,9 +15,6 @@ Only scan targets you **own** or have **explicit written permission** to test. U
 - Colorized terminal output
 - Modular and extensible scanner architecture
 
----
-
-## Project Structure---
 
 ## Steps Taken to Build This Project
 
@@ -49,7 +44,6 @@ pip install requests beautifulsoup4 colorama
 - Initialized a Git repository with `git init`
 - Committed all files and pushed to GitHub
 
----
 
 ## Installation
 
@@ -61,7 +55,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
 
 ## Usage
 
